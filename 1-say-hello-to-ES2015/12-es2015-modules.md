@@ -186,10 +186,10 @@ import Vehicle, {print} from './lib/vehicle';
 ~~~
 
 
-  - Option 1
-  - Option 2
-  - **Option 3**
-  - Option 4
+  - Option 1 & 3
+  - Option 2 & 4
+  - **Option 3 & 4**
+  - Option 1 & 4
 
 *****
 
@@ -199,14 +199,22 @@ type:   text
 points: 5
 ```
 
-Here the correct answer is option 3, which is:
+Here the correct answer is option 3 & 4, which are:
 
+Option 3:
 ~~~js
 import Vehicle from './lib/vehicle';
 import {print} from './lib/vehicle';
 ~~~
 
-That's how we can import both the default export and some named export inside the same module.
+Option 4:
+~~~js
+import Vehicle, {print} from './lib/vehicle';
+~~~
+
+That's how we can import both the "default export" and some "named export" inside the same module.
+
+You can use which ever the method you like. "Option 4" seems like a pretty nice way to do it.
 
 ---
 
