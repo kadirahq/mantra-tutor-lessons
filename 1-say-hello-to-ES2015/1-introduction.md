@@ -6,7 +6,7 @@ Have you ever tried reading the source code of a newer JavaScript app or module?
 
 ~~~js
 // lib/vehicle.js
-export default class {
+export default class Vehicle {
   constructor(type, number) {
     this.type = type;
     this.number = number;
@@ -29,7 +29,7 @@ export default class {
 }
 
 // main.js
-import Vehicle from `./lib/vehicle`;
+import Vehicle from './lib/vehicle';
 const {log} = console;
 
 let v1 = new Vehicle('Car', 'HY-8244');
