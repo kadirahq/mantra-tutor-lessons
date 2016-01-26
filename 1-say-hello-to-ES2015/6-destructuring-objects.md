@@ -1,9 +1,9 @@
 ```
-name: Destruct Objects like a Guru
+name: Destructuring Objects like a Guru
 bulletPackage: free
 ```
 
-With ES2015, we can destruct values inside objects and arrays very easily. For example, have a look at the following code:
+With ES2015, we can destructure values inside objects and arrays very easily. For example, have a look at the following code:
 
 ~~~js
 const user = {
@@ -87,7 +87,7 @@ The result is `1, 2, 3`. That's because:
 
 ---
 
-Just like objects, you can destruct values from arrays as well. Have a look at this example:
+Just like objects, you can destructure values from arrays as well. Have a look at this example:
 
 ~~~js
 function printUser([name, age = 20]) {
