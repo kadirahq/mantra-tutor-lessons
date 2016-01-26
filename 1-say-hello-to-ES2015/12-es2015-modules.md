@@ -6,7 +6,7 @@ bulletPackage: free
 ES2015 has a module system, which we can use to organize our app into smaller, manageable modules. This module system is very similar to the CommonJS module system (or the module system of Node.js), but with **one major** difference. Here it is:
 
 > All the imports should be static. That means, you can't import modules at runtime. They need to done at compile time (or better when interpreting JavaScript).
-> Here's a piece of code that can't be written with ES2015 modules:
+> Here's a piece of code that **cannot** be written with ES2015 modules:
 
 ~~~js
 let router;
@@ -160,6 +160,7 @@ import Vehicle from './lib/vehicle';
 const v1 = new Vehicle('Car', 'GH-3355');
 console.log(v1.display());
 ~~~
+> You can write above code on `src/main.js`
 
 In the above `src/lib/vehicle.js` module, we've also exported a function called `print`. How can we import it?
 

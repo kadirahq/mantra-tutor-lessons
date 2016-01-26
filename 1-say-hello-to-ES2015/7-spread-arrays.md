@@ -65,5 +65,5 @@ printTeam('Arunoda', 'John', 'Singh');
 
   - Leader: Arunoda - Others: John Singh
   - Leader: Arunoda - Others: ["John", "Singh"]
-  - **Leader: Arunoda - Others: John, Singh**
+  - **Leader: Arunoda - Others: John,Singh**
   - Leader: Arunoda - Others: [null, null]

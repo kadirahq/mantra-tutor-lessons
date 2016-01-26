@@ -3,7 +3,7 @@ name: Cloning and Merging Objects like a Pro
 bulletPackage: free
 ```
 
-In our apps, cloning and merging objects is one of core tasks we do. Usually, we use an underscore or lodash to do so.
+In our apps, cloning and merging objects is one of core tasks we do. Usually, we use an [underscore](http://underscorejs.org/) or [lodash](https://lodash.com/) to do so.
 
 Let's look at some examples:
 
@@ -96,5 +96,5 @@ Just like objects, we can clone arrays too. See the following example:
 const marks = [10, 20, 30];
 const newMarks = [...marks, 40];
 
-console.log(newMarks);
+console.log(marks, newMarks);
 ~~~
