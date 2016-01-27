@@ -37,19 +37,19 @@ v1.start();
 log(v1.display());
 ~~~
 
-If you look at it carefully, it's pretty. But it's not the JavaScript you write, it's something else.
+If you look at it carefully, it's pretty. But it's not the JavaScript you're used to writing, it's something else.
 
 **That’s ES2015 and the New JavaScript**
 
 Recently, JavaScript got a lot of **new features** to the language. Many more features have been suggested and they will be added to the language soon.
 
-Interestingly, the JavaScript community started to use these new features **even before** they were fully implemented by browsers (and Node.js). That's because these features are pretty awesome and save us from doing a lot of hacks.
+Interestingly, the JavaScript community started to use these new features **even before** they were fully implemented by browsers (and Node.js). That's because these features are pretty awesome and save us from doing a lot of hacks. And it's possible to use before it's fully supported in browsers thanks to transpilers like [Babel](https://babeljs.io/)
 
 In this course, we are going see some of these features and their **real-life use cases**. Then you will understand ES2015 pretty well and use the features in your projects.
 
 ## Setting Up
 
-In this course, we'll use a lot of ES2015 code and some traditional JavaScript code. Sometimes, we ask questions.
+In this course, we'll use a lot of ES2015 code and some traditional JavaScript code. Sometimes, we will ask you questions.
 
 > You can skip these questions, but they are very simple and will verify your understanding of the topic. So, we really encourage you to work on them.
 

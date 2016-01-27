@@ -3,7 +3,7 @@ name: Write Classes Like You Did with Java
 bulletPackage: free
 ```
 
-JavaScript was not a proper object-oriented language. But we used functions and prototypes to write classes in JavaScript. With ES2015, we don't need to hack it anymore. Now we can write classes natively.
+JavaScript was not a proper object-oriented language. But we used functions and prototypes to simulate classes in JavaScript. With ES2015, we don't need to hack it anymore. Now we can write classes natively.
 
 This is how you can create a simple class:
 

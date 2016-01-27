@@ -1,5 +1,5 @@
 ```
-name: Clean the Code with Arrow Functions
+name: Clean up your Code with Arrow Functions
 bulletPackage: free
 ```
 
